@@ -1,5 +1,5 @@
-For the error function, we can see that there's no significant change when n > 50
-Thats the reason I chose n = 100 in the project.
+##For the error function, we can see that there's no significant change when n > 50
+##Thats the reason I chose n = 100 in the project.
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -11,8 +11,6 @@ U0 = 40
 dy = 0.001 
 jm = int(L/dy + 1) 
 y = np.linspace(0, L, jm) 
-
-# Calculus the η and η1
 t = 1.08
 eta = y / (2 * np.sqrt(v * t))
 eta1 = L / (2 * np.sqrt(v * t))  
