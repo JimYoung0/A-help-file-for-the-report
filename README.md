@@ -1,5 +1,5 @@
-##For the error function, we can see that there's no significant change when n > 50
-##Thats the reason I chose n = 100 in the project.
+For the error function, we can see that there's no significant change when n > 50
+Thats the reason I chose n = 100 in the project.
 
 import numpy as np
 import matplotlib.pyplot as plt
